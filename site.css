@@ -3523,3 +3523,48 @@ footer{
     padding:14px;
   }
 }
+
+/* Mobile hero announcement refinement */
+@media (max-width:780px){
+  .hero-text{
+    display:flex !important;
+    flex-direction:column;
+    align-items:center !important;
+    justify-content:center !important;
+    gap:14px;
+    line-height:normal;
+    padding:0 16px !important;
+  }
+
+  .hero h1{
+    position:relative !important;
+    left:auto !important;
+    bottom:auto !important;
+    z-index:2;
+    width:min(92vw,460px);
+    margin:0 auto !important;
+    transform:none !important;
+  }
+
+  .holiday-notice-hero{
+    position:relative;
+    left:auto;
+    bottom:auto;
+    z-index:2;
+    width:min(100%,430px);
+    margin:0 auto;
+    transform:none;
+  }
+
+  .hero + .section{
+    padding-top:34px !important;
+    margin-top:0 !important;
+  }
+}
+
+@media (max-width:380px){
+  .hero-text{
+    gap:12px;
+    padding:0 13px !important;
+  }
+}
