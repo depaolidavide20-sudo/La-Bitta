@@ -3533,7 +3533,7 @@ footer{
     justify-content:center !important;
     gap:14px;
     line-height:normal;
-    padding:0 16px !important;
+    padding:24px 16px 0 !important;
   }
 
   .hero h1{
@@ -3565,6 +3565,6 @@ footer{
 @media (max-width:380px){
   .hero-text{
     gap:12px;
-    padding:0 13px !important;
+    padding:20px 13px 0 !important;
   }
 }
