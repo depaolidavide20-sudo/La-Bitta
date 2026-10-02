@@ -3446,6 +3446,22 @@ footer{
 
 /* Mobile hero title refinement */
 @media (max-width:780px){
+  .hero{
+    height:clamp(540px,150vw,660px) !important;
+    min-height:clamp(540px,150vw,660px) !important;
+  }
+
+  .hero-grid,
+  .hero-text{
+    height:100% !important;
+    min-height:100% !important;
+  }
+
+  .hero-photo-mobile{
+    top:-76px;
+    height:calc(100% + 86px) !important;
+  }
+
   .hero-text{
     display:flex !important;
     flex-direction:column;
@@ -3453,7 +3469,7 @@ footer{
     justify-content:center !important;
     gap:14px;
     line-height:normal;
-    padding:24px 16px 0 !important;
+    padding:42px 16px 0 !important;
   }
 
   .hero h1{
@@ -3475,6 +3491,6 @@ footer{
 @media (max-width:380px){
   .hero-text{
     gap:12px;
-    padding:20px 13px 0 !important;
+    padding:34px 13px 0 !important;
   }
 }
