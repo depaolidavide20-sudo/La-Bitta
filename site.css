@@ -3444,87 +3444,7 @@ footer{
   }
 }
 
-.holiday-notice{
-  width:min(100%,680px);
-  padding:16px 18px;
-  border:1px solid rgba(235,202,135,.3);
-  border-radius:18px;
-  background:linear-gradient(135deg,rgba(18,15,11,.86),rgba(44,34,21,.7));
-  box-shadow:0 18px 42px rgba(0,0,0,.28);
-  backdrop-filter:blur(10px);
-}
-
-.holiday-notice small{
-  display:block;
-  margin-bottom:6px;
-  color:var(--gold2);
-  font-size:11px;
-  font-weight:800;
-  letter-spacing:.22em;
-  line-height:1.2;
-  text-transform:uppercase;
-}
-
-.holiday-notice p{
-  margin:0;
-  color:#fff8ee;
-  font-family:"Cormorant Garamond",serif;
-  font-size:clamp(20px,1.8vw,27px);
-  font-weight:600;
-  line-height:1.22;
-  text-wrap:balance;
-}
-
-.holiday-notice-hero{
-  margin:0 auto 14px;
-}
-
-.contact-holiday{
-  padding:16px;
-  border:1px solid rgba(235,202,135,.24);
-  border-radius:16px;
-  background:rgba(215,178,109,.08);
-}
-
-.contact-holiday p{
-  color:#f7efe4;
-}
-
-@media (max-width:780px){
-  .holiday-notice{
-    padding:12px 13px;
-    border-radius:16px;
-  }
-
-  .holiday-notice p{
-    font-family:Inter,sans-serif;
-    font-size:12.5px;
-    font-weight:600;
-    line-height:1.38;
-  }
-
-  .holiday-notice small{
-    margin-bottom:5px;
-    font-size:9px;
-    letter-spacing:.18em;
-  }
-
-  .holiday-notice-hero{
-    position:absolute;
-    left:50%;
-    bottom:24px;
-    z-index:2;
-    width:min(calc(100% - 28px),440px);
-    margin:0;
-    transform:translateX(-50%);
-  }
-
-  .contact-holiday{
-    padding:14px;
-  }
-}
-
-/* Mobile hero announcement refinement */
+/* Mobile hero title refinement */
 @media (max-width:780px){
   .hero-text{
     display:flex !important;
@@ -3544,16 +3464,6 @@ footer{
     width:min(92vw,460px);
     margin:0 auto !important;
     transform:none !important;
-  }
-
-  .holiday-notice-hero{
-    position:relative;
-    left:auto;
-    bottom:auto;
-    z-index:2;
-    width:min(100%,430px);
-    margin:0 auto;
-    transform:none;
   }
 
   .hero + .section{
